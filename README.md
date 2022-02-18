@@ -18,3 +18,6 @@ Feel free to make a PR if you want to provide your own 3d modeled housings for 3
 - [ ] Headphone cups and band
 - [ ] Custom smaller PCBs of I2S Decoder and amp.
 - [x] ~~Meow at wall for 3 hours~~
+
+## Currently working on (as of last updating this)
+- 3d printed housing for speakers, small desktop style pc speakers
