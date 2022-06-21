@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "USB-Sound-Card-rescue")(type "Legacy")(uri "${KIPRJMOD}/USB-Sound-Card-rescue.lib")(options "")(descr ""))
+  (lib (name "USB-Sound-Card-cache")(type "Legacy")(uri "${KIPRJMOD}/USB-Sound-Card-cache.lib")(options "")(descr ""))
+)
