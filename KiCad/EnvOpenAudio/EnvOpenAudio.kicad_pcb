@@ -947,7 +947,7 @@
       (net 46 "+3V3") (pinfunction "VCC") (pintype "power_in") (tstamp 2ec90db5-00e6-40fe-bf1b-39f29e798f0c))
     (pad "9" smd rect (at 0 0) (size 0.6 1.6) (layers "F.Cu" "F.Mask")
       (net 59 "GND") (pinfunction "EP") (pintype "passive") (tstamp 464d8fd5-3842-4f85-b68b-e675e6742e4a))
-    (model "${KIPRJMOD}/Resources/EnvExtras.pretty/W25Q16JVUXIQ_TR.stp"
+    (model "${KIPRJMOD}/Resources/W25Q16JVUXIQ_TR.stp"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2779,10 +2779,10 @@
       (net 33 "Net-(J1-SHIELD)") (pinfunction "SHIELD") (pintype "passive") (tstamp 4f947e7c-5288-48ca-8062-c37dbc936ec6))
     (pad "S1" thru_hole oval (at 4.32 1.05 180) (size 1 1.6) (drill oval 0.6 1.2) (layers "*.Cu" "*.Mask")
       (net 33 "Net-(J1-SHIELD)") (pinfunction "SHIELD") (pintype "passive") (tstamp b99c9ecb-7eae-4047-82f1-b469f43148fe))
-    (model "${KICAD6_3DMODEL_DIR}/Connector_USB.3dshapes/USB_C_Receptacle_HRO_TYPE-C-31-M-12.wrl"
-      (offset (xyz 0 0 0))
+    (model "${KIPRJMOD}/Resources/HRO  TYPE-C-31-M-12.step"
+      (offset (xyz -4.5 -3.5 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz -90 0 0))
     )
   )
 
@@ -2956,7 +2956,7 @@
       (net 58 "AGND") (pinfunction "2") (pintype "passive") (tstamp d1896cb0-315e-416c-a253-a948cec5fb69))
   )
 
-  (gr_rect (start 99.2125 102.9) (end 108.0875 100.05)
+  (gr_rect (start 99.2125 100.05) (end 108.0875 102.9)
     (stroke (width 0.1) (type solid)) (fill none) (layer "F.Mask") (tstamp 277903d1-d349-4495-9f6e-26fc2fdfd8e2))
   (gr_line (start 92.9 108.525) (end 92.9 108.025)
     (stroke (width 0.1) (type solid)) (layer "Dwgs.User") (tstamp 00000000-0000-0000-0000-0000617fbce6))
