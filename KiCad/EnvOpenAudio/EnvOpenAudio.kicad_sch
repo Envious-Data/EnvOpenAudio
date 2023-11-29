@@ -3657,6 +3657,21 @@
     (uuid ffd6c793-f2b7-4899-9abb-2b2e1990dcdc)
   )
 
+  (text_box "Could use TLV320AIC3100  instead of PCM3060 if needed, it is much lower power and much newer than the pcm3060.\n"
+    (at 299.72 135.255 0) (size 30.48 16.51)
+    (stroke (width 0) (type default))
+    (fill (type none))
+    (effects (font (size 1.27 1.27)) (justify left top))
+    (uuid 3320dd9f-b477-47a6-ba0e-93822e213684)
+  )
+  (text_box "unsure if its worth implementing ANC in the first version of this device but we'll see."
+    (at 299.72 114.3 0) (size 30.48 12.7)
+    (stroke (width 0) (type default))
+    (fill (type none))
+    (effects (font (size 1.27 1.27)) (justify left top))
+    (uuid da452a1d-b7b7-4b9b-9570-8f88b91ca16f)
+  )
+
   (text "USB/POWER" (at 66.675 27.305 0)
     (effects (font (size 5.0038 5.0038) (thickness 1.0008) bold) (justify left bottom))
     (uuid 1a803a38-4c7c-4a7e-b72d-0d8a556711cc)
@@ -3694,6 +3709,10 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 58b53a29-ae95-4385-973b-a39db037ab6c)
   )
+  (text "AS3435 " (at 299.72 114.3 0)
+    (effects (font (size 5 5)) (justify left bottom))
+    (uuid 5edd0104-ccff-4df1-96f3-c7928f37e222)
+  )
   (text "Im unsure if the RP2040 can function with flash larger than 128Mb"
     (at 13.335 142.24 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -3721,6 +3740,10 @@
   (text "not 22pf but pick to match crystal." (at 27.94 187.325 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 9b03ade2-7747-4e96-bf1a-aba28ac085cc)
+  )
+  (text "TLV320AIC3100 " (at 299.72 134.62 0)
+    (effects (font (size 5 5)) (justify left bottom))
+    (uuid 9b9fda3c-494d-41de-a681-3fd7c1efbdba)
   )
   (text "VBUS SENSE" (at 73.025 52.705 0)
     (effects (font (size 0.9 0.9)) (justify left bottom))
