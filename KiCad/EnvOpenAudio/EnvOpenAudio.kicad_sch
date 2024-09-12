@@ -805,6 +805,108 @@
 				)
 			)
 		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.762) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Connector:USB_C_Receptacle_USB2.0"
 			(pin_names
 				(offset 1.016)
@@ -7140,6 +7242,12 @@
 		(uuid "1bddd7ba-5865-4579-85a4-72ec135f8160")
 	)
 	(junction
+		(at 44.45 22.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "21106f48-09ad-426e-b54e-0227e8ea8f45")
+	)
+	(junction
 		(at 245.745 123.825)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7264,6 +7372,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "60b5ea08-4f0f-4a58-8a2d-f6cb3150b731")
+	)
+	(junction
+		(at 88.9 22.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "657237d0-f002-49dd-9406-cc1373afc6da")
 	)
 	(junction
 		(at 189.865 132.715)
@@ -7616,6 +7730,16 @@
 			(type default)
 		)
 		(uuid "05b6e567-b91a-4098-8024-1b037884ab91")
+	)
+	(wire
+		(pts
+			(xy 44.45 22.86) (xy 57.15 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06bc476d-1113-4db9-8d09-116253626963")
 	)
 	(wire
 		(pts
@@ -8569,6 +8693,16 @@
 	)
 	(wire
 		(pts
+			(xy 166.37 22.86) (xy 170.18 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59d1a16b-0056-4cbb-b479-053376f6979b")
+	)
+	(wire
+		(pts
 			(xy 40.64 40.64) (xy 40.64 43.18)
 		)
 		(stroke
@@ -9169,7 +9303,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 22.86) (xy 57.15 22.86)
+			(xy 40.64 22.86) (xy 44.45 22.86)
 		)
 		(stroke
 			(width 0)
@@ -9246,6 +9380,16 @@
 			(type default)
 		)
 		(uuid "957d2d60-a380-4fe5-b1e7-00012d89f618")
+	)
+	(wire
+		(pts
+			(xy 88.9 22.86) (xy 95.25 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95e0dba4-14a1-4b36-a5fd-913dd7d59111")
 	)
 	(wire
 		(pts
@@ -9849,16 +9993,6 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 22.86) (xy 166.37 22.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d198acd5-bfc5-4165-a8ee-a66fb720b1ed")
-	)
-	(wire
-		(pts
 			(xy 80.01 33.02) (xy 83.82 33.02)
 		)
 		(stroke
@@ -10349,7 +10483,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 22.86) (xy 95.25 22.86)
+			(xy 83.82 22.86) (xy 88.9 22.86)
 		)
 		(stroke
 			(width 0)
@@ -12579,7 +12713,7 @@
 			)
 		)
 		(property "Value" "schottky diode low forward voltage"
-			(at 73.025 4.445 0)
+			(at 60.96 13.335 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13869,6 +14003,74 @@
 			(project "EnvOpenAudio"
 				(path "/7b892ee5-f34f-4bca-8f87-a56522432f7c"
 					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 382.27 -283.845 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3726b626-cffa-41d9-aa67-ddfb69eabaf0")
+		(property "Reference" "TP3"
+			(at 384.81 -287.1471 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 384.81 -285.8771 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 387.35 -283.845 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 387.35 -283.845 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 382.27 -283.845 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7fc0bbd3-2742-4ab2-a6d6-ffe52f53df92")
+		)
+		(instances
+			(project "EnvOpenAudio"
+				(path "/7b892ee5-f34f-4bca-8f87-a56522432f7c"
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -16341,6 +16543,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 44.45 22.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7b2f52d1-4620-4897-ba1c-9c405c14da52")
+		(property "Reference" "TP1"
+			(at 46.99 19.5579 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 46.99 20.8279 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 49.53 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 49.53 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 44.45 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "99e474c0-1619-4bbf-a2c9-508551f91dd8")
+		)
+		(instances
+			(project ""
+				(path "/7b892ee5-f34f-4bca-8f87-a56522432f7c"
+					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 73.66 262.89 0)
 		(unit 1)
@@ -18264,7 +18534,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "SPH3015H2R2MT"
+		(property "Value" "MPL2016S2R2NHT"
 			(at 93.345 33.02 90)
 			(effects
 				(font
@@ -18273,7 +18543,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_Sunlord_SWPA3015S"
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 95.25 38.1 0)
 			(effects
 				(font
@@ -19341,7 +19611,7 @@
 		(fields_autoplaced yes)
 		(uuid "e8b6c2f9-0519-4c81-8048-74a6bb75c098")
 		(property "Reference" "L2"
-			(at 123.825 158.115 0)
+			(at 124.46 158.1149 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19349,8 +19619,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "3.3uf 2016"
-			(at 123.825 160.655 0)
+		(property "Value" "MPL2012S3R3MHT"
+			(at 124.46 160.6549 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19358,7 +19628,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_Murata_DFE201610P"
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 122.555 159.385 0)
 			(effects
 				(font
@@ -20028,6 +20298,142 @@
 			(project "EnvOpenAudio"
 				(path "/7b892ee5-f34f-4bca-8f87-a56522432f7c"
 					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 211.455 112.395 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f93f34cc-aefc-4b1c-a7e0-7e6eaa73f2ef")
+		(property "Reference" "TP4"
+			(at 213.995 109.0929 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 213.995 110.3629 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 216.535 112.395 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 216.535 112.395 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 211.455 112.395 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6a1cbae3-2ae3-4b84-a24f-050780411572")
+		)
+		(instances
+			(project "EnvOpenAudio"
+				(path "/7b892ee5-f34f-4bca-8f87-a56522432f7c"
+					(reference "TP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 88.9 22.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f94b1403-850c-43f0-96cb-106812ebe830")
+		(property "Reference" "TP2"
+			(at 91.44 19.5579 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 91.44 20.8279 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 93.98 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 93.98 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 88.9 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ab78fbc9-5ed6-4c2a-aeda-46c3b6408d09")
+		)
+		(instances
+			(project "EnvOpenAudio"
+				(path "/7b892ee5-f34f-4bca-8f87-a56522432f7c"
+					(reference "TP2")
 					(unit 1)
 				)
 			)
