@@ -20,7 +20,6 @@ pico_enable_stdio_usb(envopenaudio 0)
 
 target_include_directories(envopenaudio PRIVATE 
     ${CMAKE_CURRENT_LIST_DIR}
-    ${PICO_SDK_PATH}/lib/tinyusb/src
 )
 
 target_link_libraries(envopenaudio
@@ -28,9 +27,6 @@ target_link_libraries(envopenaudio
     pico_audio_i2s
     tinyusb_device
     tinyusb_board
-    hardware_dma
-    hardware_pio
-    hardware_clocks
 )
 
 pico_add_extra_outputs(envopenaudio)
