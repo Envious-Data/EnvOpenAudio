@@ -1599,6 +1599,203 @@
 				)
 			)
 		)
+		(symbol "Connector_Generic:Conn_01x04"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x04"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x04_1_1"
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 3.81)
+					(end 1.27 -6.35)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Connector_Generic:Conn_01x10"
 			(pin_names
 				(offset 1.016) hide)
@@ -7500,6 +7697,16 @@
 	)
 	(wire
 		(pts
+			(xy 34.29 101.6) (xy 31.75 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3288cd6d-9b25-45dc-978f-6b403c13ff5c")
+	)
+	(wire
+		(pts
 			(xy 194.945 132.715) (xy 194.945 145.415)
 		)
 		(stroke
@@ -8870,6 +9077,16 @@
 	)
 	(wire
 		(pts
+			(xy 41.91 99.06) (xy 31.75 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b732fbd7-5323-457c-9169-573309470418")
+	)
+	(wire
+		(pts
 			(xy 189.865 145.415) (xy 189.865 132.715)
 		)
 		(stroke
@@ -9037,6 +9254,16 @@
 			(type default)
 		)
 		(uuid "ccce1dab-547b-474c-91e0-dfada0a8845b")
+	)
+	(wire
+		(pts
+			(xy 36.83 96.52) (xy 31.75 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cce420eb-0c43-494f-bc59-a780128e44a7")
 	)
 	(wire
 		(pts
@@ -9733,7 +9960,6 @@
 	)
 	(label "~{USB_BOOT}"
 		(at 115.57 164.465 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9744,7 +9970,6 @@
 	)
 	(label "GPIO22"
 		(at 233.045 219.075 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9755,7 +9980,6 @@
 	)
 	(label "GPIO28_ADC2"
 		(at 233.045 236.855 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9766,7 +9990,6 @@
 	)
 	(label "QSPI_SD2"
 		(at 140.335 173.355 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9777,7 +10000,6 @@
 	)
 	(label "GPIO7"
 		(at 233.045 180.975 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9788,7 +10010,6 @@
 	)
 	(label "FLASH_SS"
 		(at 38.735 199.39 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9799,7 +10020,6 @@
 	)
 	(label "GPIO29_ADC3"
 		(at 233.045 239.395 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9810,7 +10030,6 @@
 	)
 	(label "RUN"
 		(at 140.335 216.535 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9821,7 +10040,6 @@
 	)
 	(label "GPIO5"
 		(at 233.045 175.895 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9832,7 +10050,6 @@
 	)
 	(label "GPIO0"
 		(at 350.52 229.87 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9843,7 +10060,6 @@
 	)
 	(label "QSPI_SS"
 		(at 16.51 199.39 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9854,7 +10070,6 @@
 	)
 	(label "XIN"
 		(at 140.335 198.755 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9865,7 +10080,6 @@
 	)
 	(label "GPIO0"
 		(at 16.51 190.5 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9876,7 +10090,6 @@
 	)
 	(label "GPIO6"
 		(at 350.52 245.11 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9887,7 +10100,6 @@
 	)
 	(label "GPIO3"
 		(at 233.045 170.815 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9898,7 +10110,6 @@
 	)
 	(label "GPIO17"
 		(at 233.045 206.375 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9909,7 +10120,6 @@
 	)
 	(label "GPIO18"
 		(at 233.045 208.915 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9920,7 +10130,6 @@
 	)
 	(label "GPIO10"
 		(at 233.045 188.595 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9931,7 +10140,6 @@
 	)
 	(label "GPIO25"
 		(at 233.045 226.695 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9942,7 +10150,6 @@
 	)
 	(label "GPIO2"
 		(at 233.045 168.275 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9953,7 +10160,6 @@
 	)
 	(label "QSPI_SD1"
 		(at 95.25 199.39 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9964,7 +10170,6 @@
 	)
 	(label "QSPI_SD0"
 		(at 95.25 196.85 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9975,7 +10180,6 @@
 	)
 	(label "XOUT"
 		(at 99.06 267.97 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9986,7 +10190,6 @@
 	)
 	(label "QSPI_SD1"
 		(at 140.335 170.815 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9997,7 +10200,6 @@
 	)
 	(label "GPIO24"
 		(at 233.045 224.155 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10008,7 +10210,6 @@
 	)
 	(label "SWD"
 		(at 140.335 230.505 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10019,7 +10220,6 @@
 	)
 	(label "GPIO26_ADC0"
 		(at 233.045 231.775 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10030,7 +10230,6 @@
 	)
 	(label "GPIO1"
 		(at 350.52 232.41 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10041,7 +10240,6 @@
 	)
 	(label "GPIO21"
 		(at 233.045 216.535 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10052,7 +10250,6 @@
 	)
 	(label "GPIO9"
 		(at 233.045 186.055 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10063,7 +10260,6 @@
 	)
 	(label "GPIO2"
 		(at 350.52 234.95 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10074,7 +10270,6 @@
 	)
 	(label "QSPI_SD3"
 		(at 95.25 207.01 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10085,7 +10280,6 @@
 	)
 	(label "QSPI_SCLK"
 		(at 140.335 179.705 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10096,7 +10290,6 @@
 	)
 	(label "SWD"
 		(at 311.15 237.49 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10107,7 +10300,6 @@
 	)
 	(label "GPIO1"
 		(at 233.045 165.735 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10118,7 +10310,6 @@
 	)
 	(label "GPIO16"
 		(at 233.045 203.835 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10129,7 +10320,6 @@
 	)
 	(label "XOUT"
 		(at 140.335 203.835 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10140,7 +10330,6 @@
 	)
 	(label "GPIO0"
 		(at 233.045 163.195 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10151,7 +10340,6 @@
 	)
 	(label "SWCLK"
 		(at 140.335 227.965 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10162,7 +10350,6 @@
 	)
 	(label "GPIO4"
 		(at 233.045 173.355 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10173,7 +10360,6 @@
 	)
 	(label "GPIO27_ADC1"
 		(at 233.045 234.315 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10184,7 +10370,6 @@
 	)
 	(label "GPIO19"
 		(at 233.045 211.455 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10195,7 +10380,6 @@
 	)
 	(label "GPIO6"
 		(at 233.045 178.435 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10206,7 +10390,6 @@
 	)
 	(label "XIN"
 		(at 99.06 257.81 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10217,7 +10400,6 @@
 	)
 	(label "GPIO11"
 		(at 233.045 191.135 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10228,7 +10410,6 @@
 	)
 	(label "SWCLK"
 		(at 311.15 232.41 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10239,7 +10420,6 @@
 	)
 	(label "GPIO8"
 		(at 233.045 183.515 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10250,7 +10430,6 @@
 	)
 	(label "GPIO3"
 		(at 350.52 237.49 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10261,7 +10440,6 @@
 	)
 	(label "GPIO23"
 		(at 233.045 221.615 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10272,7 +10450,6 @@
 	)
 	(label "QSPI_SD0"
 		(at 140.335 168.275 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10283,7 +10460,6 @@
 	)
 	(label "QSPI_SCLK"
 		(at 38.1 204.47 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10294,7 +10470,6 @@
 	)
 	(label "GPIO15"
 		(at 233.045 201.295 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10305,7 +10480,6 @@
 	)
 	(label "QSPI_SD2"
 		(at 95.25 204.47 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10316,7 +10490,6 @@
 	)
 	(label "QSPI_SS"
 		(at 140.335 164.465 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10327,7 +10500,6 @@
 	)
 	(label "GPIO4"
 		(at 350.52 240.03 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10338,7 +10510,6 @@
 	)
 	(label "GPIO14"
 		(at 233.045 198.755 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10349,7 +10520,6 @@
 	)
 	(label "GPIO5"
 		(at 350.52 242.57 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10360,7 +10530,6 @@
 	)
 	(label "GPIO12"
 		(at 233.045 193.675 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10371,7 +10540,6 @@
 	)
 	(label "GPIO13"
 		(at 233.045 196.215 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10382,7 +10550,6 @@
 	)
 	(label "QSPI_SD3"
 		(at 140.335 175.895 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10393,7 +10560,6 @@
 	)
 	(label "GPIO20"
 		(at 233.045 213.995 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12046,6 +12212,71 @@
 			(project "EnvOpenAudio"
 				(path "/7b892ee5-f34f-4bca-8f87-a56522432f7c"
 					(reference "C31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 34.29 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "195b5d50-9eb5-4c6b-b05e-c788a59734ec")
+		(property "Reference" "#PWR012"
+			(at 34.29 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 34.417 105.9942 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 34.29 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 34.29 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 34.29 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bf90cf51-6258-4f11-b2a5-b32744625edf")
+		)
+		(instances
+			(project "EnvOpenAudio"
+				(path "/7b892ee5-f34f-4bca-8f87-a56522432f7c"
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -13862,6 +14093,79 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 26.67 99.06 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "59d4ae83-ab84-4dfb-809a-92ee99062ff8")
+		(property "Reference" "J4"
+			(at 26.67 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x04"
+			(at 26.67 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+			(at 26.67 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 26.67 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 26.67 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "ff29db0b-1aae-47fe-8026-e13801c59d09")
+		)
+		(pin "1"
+			(uuid "9c3218fc-1e42-4dd9-adbc-9301e3181466")
+		)
+		(pin "2"
+			(uuid "dc1ad4d0-f69e-4df9-86bb-385b371beaef")
+		)
+		(pin "3"
+			(uuid "d0ebb364-1cd2-46e8-b0ca-19f5923de973")
+		)
+		(instances
+			(project ""
+				(path "/7b892ee5-f34f-4bca-8f87-a56522432f7c"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:Crystal_GND24")
 		(at 67.31 262.89 270)
 		(unit 1)
@@ -14507,7 +14811,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TLV320AIC3100"
+		(property "Value" "TLV320AIC3110"
 			(at 370.4941 84.455 0)
 			(effects
 				(font
@@ -14844,6 +15148,73 @@
 			(project "EnvOpenAudio"
 				(path "/7b892ee5-f34f-4bca-8f87-a56522432f7c"
 					(reference "C39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "+3V3_1")
+		(lib_id "power:+3V3")
+		(at 36.83 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "772e0d75-58ee-44f8-b8a0-9c893b3b2f74")
+		(property "Reference" "#PWR016"
+			(at 36.83 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 36.83 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 36.83 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 36.83 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 36.83 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a98c8c52-74ca-47d6-9f22-13c60a96e336")
+		)
+		(instances
+			(project "EnvOpenAudio"
+				(path "/7b892ee5-f34f-4bca-8f87-a56522432f7c"
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -15507,6 +15878,204 @@
 			(project "EnvOpenAudio"
 				(path "/7b892ee5-f34f-4bca-8f87-a56522432f7c"
 					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+1V8")
+		(at 41.91 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "96c62722-6303-46f6-ad6a-283b8a8c87d4")
+		(property "Reference" "#PWR021"
+			(at 41.91 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+1V8"
+			(at 41.91 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 41.91 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 41.91 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 41.91 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b325c2dc-a17d-46cc-8ce4-156af30590e3")
+		)
+		(instances
+			(project "EnvOpenAudio"
+				(path "/7b892ee5-f34f-4bca-8f87-a56522432f7c"
+					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 398.78 250.19 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "98698d57-d212-4d8d-8bfa-fda76e12125d")
+		(property "Reference" "#PWR041"
+			(at 398.78 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 398.653 254.5842 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 398.78 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 398.78 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 398.78 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "faabbb0c-eef3-4c89-b31f-c4c971aa0b71")
+		)
+		(instances
+			(project "EnvOpenAudio"
+				(path "/7b892ee5-f34f-4bca-8f87-a56522432f7c"
+					(reference "#PWR041")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VBUS")
+		(at 31.75 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9931272d-c0cc-4938-9e72-0401d8f0878e")
+		(property "Reference" "#PWR013"
+			(at 31.75 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 31.75 89.535 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 31.75 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 31.75 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 31.75 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "27b8cb02-beaf-49a3-8036-50efcb45f6d0")
+		)
+		(instances
+			(project "EnvOpenAudio"
+				(path "/7b892ee5-f34f-4bca-8f87-a56522432f7c"
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)

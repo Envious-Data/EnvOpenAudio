@@ -10,5 +10,4 @@ https://github.com/raspberrypi/pico-playground/tree/master/apps/usb_sound_card
 need firmware for rp2040 to make it USB I2S DAC.
 
 ### bonus features
-- a basic EQ to adjust sound a bit incase you use different kinds of speakers to me
-- i2c volume control for tpa2016 via rotary encoder? (undecided)
+- a basic EQ to adjust sound a bit incase you use different kinds of speakers to me.
