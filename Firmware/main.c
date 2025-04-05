@@ -22,9 +22,9 @@ int main() {
 	printf("tud_init() called");
 
 
+	printf("tud_task() loop called\n");
     while (true) {
         tud_task(); // TinyUSB device task
-		printf("tud_task() called\n");
     }
 
     return 0;

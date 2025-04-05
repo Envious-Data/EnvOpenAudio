@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.13)
-set(PICO_BOARD pico2)
+set(PICO_BOARD pico)
 
 include(pico_sdk_import.cmake)
 include(pico_extras_import.cmake)
@@ -20,8 +20,8 @@ target_sources(envopenaudio PUBLIC
 pico_set_program_name(envopenaudio "envopenaudio")
 pico_set_program_version(envopenaudio "0.1")
 
-pico_enable_stdio_uart(envopenaudio 1)
-pico_enable_stdio_usb(envopenaudio 0)
+#pico_enable_stdio_uart(envopenaudio 0)
+#pico_enable_stdio_usb(envopenaudio 0)
 
 target_include_directories(
 	envopenaudio
@@ -32,7 +32,7 @@ target_include_directories(
 target_link_libraries(envopenaudio
     pico_stdlib
     pico_audio_i2s
-	pico_unique_id 
+	pico_unique_id
     tinyusb_device
     tinyusb_board
 )
